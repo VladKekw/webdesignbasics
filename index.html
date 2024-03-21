@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Mate</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#destinations">Популярні напрямки</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>Ми - ваш провідник у світі подорожей Україною. З нами ви зможете відкрити для себе нові місця, побачити цікаві культурні пам'ятки та насолодитися неповторною природою України.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Популярні напрямки</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Місто</th>
+                    <th>Опис</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Львів</td>
+                    <td>Прекрасне місто з багатою історією та архітектурою</td>
+                </tr>
+                <tr>
+                    <td>Київ</td>
+                    <td>Столиця України з багатою культурною спадщиною</td>
+                </tr>
+                <tr>
+                    <td>Одеса</td>
+                    <td>Місто на морському узбережжі з унікальною атмосферою</td>
+                </tr>
+                <tr>
+                    <td>Чернігів</td>
+                    <td>Давнє місто з багатою історією та пам'ятками архітектури</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Контакти</h2>
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Надіслати</button>
+        </form>
+    </section>
+
+    <div id="image"> <img src="ukraine.jpg" alt="Україна"></div>
+
+    <iframe id="video" width="866" height="487" src="https://www.youtube.com/embed/SQXEa4VE9fc" title="7 українських вершин і центр реабілітації ведмедів у Синевирі. Мандруй Україною. 3 сезон 1 випуск" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <footer>
+        <p>&copy; TravelMate</p>
+    </footer>
+
+</body>
+</html>
