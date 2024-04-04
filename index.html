@@ -6,27 +6,27 @@
     <title>TravelMate</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <h1>Travel Mate</h1>
+<body class="body-bg">
+    <header class="header-bg">
+        <h1 class="header-title">Ласкаво просимо на сайт Travel Mate</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">Про нас</a></li>
-            <li><a href="#destinations">Популярні напрямки</a></li>
-            <li><a href="#contact">Контакти</a></li>
+    <nav class="navigationlist">
+        <ul class="menu">
+            <li><a href="#about" class="menu-item">Про нас</a></li>
+            <li><a href="#destinations" class="menu-item">Популярні напрямки</a></li>
+            <li><a href="#contact" class="menu-item">Контакти</a></li>
         </ul>
     </nav>
 
-    <section id="about">
+    <section id="about" class="section section-about">
         <h2>Про нас</h2>
         <p>Ми - ваш провідник у світі подорожей Україною. З нами ви зможете відкрити для себе нові місця, побачити цікаві культурні пам'ятки та насолодитися неповторною природою України.</p>
     </section>
 
-    <section id="destinations">
+    <section id="destinations" class="section section-destinations">
         <h2>Популярні напрямки</h2>
-        <table border="1">
+        <table border="1" class="table">
             <thead>
                 <tr>
                     <th>Місто</th>
@@ -54,7 +54,7 @@
         </table>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section section-contact">
         <h2>Контакти</h2>
         <form>
             <label for="name">Ім'я:</label>
@@ -70,13 +70,16 @@
         </form>
     </section>
 
-    <div id="image"> <img src="ukraine.jpg" alt="Україна"></div>
+    
 
     <iframe id="video" width="866" height="487" src="https://www.youtube.com/embed/SQXEa4VE9fc" title="7 українських вершин і центр реабілітації ведмедів у Синевирі. Мандруй Україною. 3 сезон 1 випуск" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <footer>
+    <div id="image" class="image-container"> <img src="ukraine.jpg" alt="Україна" class="responsive-image"></div>
+
+    <footer class="footer-bg">
         <p>&copy; TravelMate</p>
     </footer>
+
 
 </body>
 </html>
