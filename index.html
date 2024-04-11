@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelMate</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body class="body-bg">
     <header class="header-bg">
@@ -13,16 +14,20 @@
 
     <nav class="navigationlist">
         <ul class="menu">
-            <li><a href="#about" class="menu-item">Про нас</a></li>
-            <li><a href="#destinations" class="menu-item">Популярні напрямки</a></li>
-            <li><a href="#contact" class="menu-item">Контакти</a></li>
+            <li><a href="catalog.html" class="menu-item">Популярні напрямки</a></li>
+            <li><a href="app.html" class="menu-item">Наш додаток</a></li>
+            <li><a href="faq.html" class="menu-item">FAQ</a></li>
+            <li><a href="blog.html" class="menu-item">Блог</a></li>
+            <li><a href="#" class="menu-item">Відгуки</a></li>
+            <li><a href="app.html" class="menu-item">Контакти</a></li>
+
         </ul>
     </nav>
 
-    <section id="about" class="section section-about">
+    <div id="about" class="section section-about">
         <h2>Про нас</h2>
         <p>Ми - ваш провідник у світі подорожей Україною. З нами ви зможете відкрити для себе нові місця, побачити цікаві культурні пам'ятки та насолодитися неповторною природою України.</p>
-    </section>
+    </d>
 
     <section id="destinations" class="section section-destinations">
         <h2>Популярні напрямки</h2>
@@ -55,12 +60,12 @@
     </section>
 
     <section id="contact" class="section section-contact">
-        <h2>Контакти</h2>
-        <form>
-            <label for="name">Ім'я:</label>
+        <h2>Консультація</h2>
+        <form id="consForm">
+            <label  for="name">Ім'я:</label>
             <input type="text" id="name" name="name" required>
             <br>
-            <label for="email">Email:</label>
+            <label  for="email-label">Email:</label>
             <input type="email" id="email" name="email" required>
             <br>
             <label for="message">Повідомлення:</label>

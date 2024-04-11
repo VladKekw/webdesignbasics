@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
@@ -20,6 +20,7 @@ nav .menu-item {
     font-size: 18px; 
     margin-right: 30px; 
     list-style-type: none; 
+    
 }
 
 .menu {
@@ -78,14 +79,29 @@ nav .menu-item {
 
 }
 
+#appinfo{
+    text-align: center;
+    
+}
+
+#image{
+    margin: 15px;
+}
 
 footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 20px 0; 
+}
+
+.faq-item{
+    margin: 10px;
+    padding: 2px;
 }
