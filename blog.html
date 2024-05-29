@@ -22,29 +22,29 @@
             </ul>
         </nav>
         <main>
-            <article class="blog-post">
-                <h2 class="post-title">Подорож до Львова</h2>
-                <p class="post-meta">Опубліковано 1 січня 2024</p>
-                <p class="post-content">Це була захоплююча подорож до Львова. Місто зачаровує своєю архітектурою, культурними пам'ятками та гостинністю місцевих жителів...</p>
-            </article>
+           
     
-            <article class="blog-post">
-                <h2 class="post-title">Найкращі місця для відпочинку на морі</h2>
-                <p class="post-meta">Опубліковано 15 липня 2024</p>
-                <p class="post-content">Літо - час для відпочинку на морі. Ми зібрали для вас список найкращих пляжів та курортів, де можна насолодитися сонцем, морем та пляжним відпочинком...</p>
-            </article>
-    
-            <!-- Додайте інші статті блогу за потреби -->
-    
-            <!-- Форма для додавання нових історій та порад -->
             <form id="blogForm">
+                <label for="storyTitle">Тема:</label>
+                <input type="text" id="storyTitle" name="storyTitle" required>
+                <br>
+              
                 <label for="story">Напишіть свою історію або пораду:</label>
                 <textarea id="story" name="story" rows="4" required></textarea>
                 <br>
-                <button type="submit">Надіслати</button>
-            </form>
-    
-            <!-- Місце для відображення нових історій та порад -->
+              
+                <button type="submit">Зберегти</button>
+                
+
+              </form>
+              <button id="loadPostButtonPostgres">
+                Завантажити дані з PostgreSQL
+            </button>
+
+              <button id="loadPostButtonMongo">
+                Завантажити дані з mongoDB
+            </button>
+
             <div id="userStories"></div>
         </main>
     </body>
