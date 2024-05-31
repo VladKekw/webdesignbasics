@@ -25,6 +25,14 @@ div {
     height: 100vh;
     
 }
+body {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
 
 
