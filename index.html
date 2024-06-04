@@ -3,31 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TravelMate - ваш провідник у світі подорожей Україною. ">
     <title>TravelMate</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body class="body-bg">
     <header class="header-bg">
         <h1 class="header-title">Ласкаво просимо на сайт Travel Mate</h1>
     </header>
-
     <nav class="navigationlist">
         <ul class="menu">
-            <li><a href="catalog.html" class="menu-item"> Популярні напрямки</a></li>
+            <li><a href="catalog.html" class="menu-item">Популярні напрямки</a></li>
             <li><a href="app.html" class="menu-item">Наш додаток</a></li>
             <li><a href="faq.html" class="menu-item">FAQ</a></li>
             <li><a href="blog.html" class="menu-item">Блог</a></li>
             <li><a href="app.html" class="menu-item">Контакти</a></li>
-
         </ul>
     </nav>
-
     <div id="about" class="section section-about">
         <h2>Про нас</h2>
         <p>Ми - ваш провідник у світі подорожей Україною. З нами ви зможете відкрити для себе нові місця, побачити цікаві культурні пам'ятки та насолодитися неповторною природою України.</p>
-    </d>
-
+    </div>
     <section id="destinations" class="section section-destinations">
         <h2>Популярні напрямки</h2>
         <table border="1" class="table">
@@ -57,14 +54,13 @@
             </tbody>
         </table>
     </section>
-
     <section id="contact" class="section section-contact">
         <h2>Консультація</h2>
         <form id="consForm">
-            <label  for="name">Ім'я:</label>
+            <label for="name">Ім'я:</label>
             <input type="text" id="name" name="name" required>
             <br>
-            <label  for="email-label">Email:</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <br>
             <label for="message">Повідомлення:</label>
@@ -73,16 +69,11 @@
             <button type="submit">Надіслати</button>
         </form>
     </section>
-
-
-   
-
-    <div id="image" class="image-container"> <img src="images/ukraine.WebP" alt="Україна" class="responsive-image"></div>
-
+    <div id="image" class="image-container">
+        <img src="images/ukraine.WebP" alt="Україна" class="responsive-image" width="800" height="600">
+    </div>
     <footer class="footer-bg">
         <p>&copy; TravelMate</p>
     </footer>
-
-
 </body>
 </html>

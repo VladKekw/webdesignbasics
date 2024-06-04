@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
   var form = document.getElementById("consForm");
 
@@ -11,6 +10,3 @@ document.addEventListener("DOMContentLoaded", function() {
       alert("Дякуємо " + name + "\n" + "Необхідна інформація надіслана на " + email);
   });
 });
-
-
-
