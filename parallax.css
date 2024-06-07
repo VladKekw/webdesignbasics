@@ -18,13 +18,6 @@ div {
     background-color: #ddd;
 }
 
-
-.parallax {
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    
-}
 body {
     width: 100%;
     font-family: "Montserrat", sans-serif;
@@ -85,4 +78,26 @@ p{
     background: #eee;
     padding: 8px 24px;
     border-radius: 16px;
+}
+.parallax {
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+@media (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll; 
+        height: 50vh; 
+        
+    }
+   
+    nav .menu {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 10px; 
+    }
 }
