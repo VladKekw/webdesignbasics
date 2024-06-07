@@ -95,7 +95,15 @@ p{
         flex-direction: column; 
         align-items: center;
     }
-
+    #img1 {
+        background-image: url(images/lviv.webp);
+    }
+    #img2 {
+        background-image: url(images/kyiv.webp);
+    }
+    #img3 {
+        background-image: url(images/odesa.WebP);
+    }
     .menu-item {
         margin-right: 0;
         margin-bottom: 10px; 
